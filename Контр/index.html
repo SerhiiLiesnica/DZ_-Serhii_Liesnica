@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kontr</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="body">
+        <div class="top">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+
+        </div>
+        <div class="choose">
+            <form id="formTD"></form>
+            <h1>Choose what you want:</h1>
+
+            <div class="formTDrad">
+                <input type="radio" name="rad" id="table">
+                <label>table</label>
+                <input type="radio" name="rad" id="list">
+                <label>list</label>
+                <br><br>
+                <div class="list">
+                    <label for="">Count Li</label>
+                    <input type="text">
+                    <label for="">Type of Marks</label>
+                    <select class="myselect" style="color:gray" onchange="this.style.color='black'">
+                        <option id='circle' value="circle" style="color:black">circle</option>
+                        <option id='disc' value="disc" style="color:black">disc</option>
+                        <option id='square' value="square" style="color:black">square</option>
+                    </select>
+                    <br><br>
+                    <button class="CrLi">Create list</button>
+                </div>
+                <div class="table">
+                    <label for="">Count TR</label>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label for="">Count TD</label>
+                    <input type="text">
+                    <h3>Add style to your table:</h3>
+
+                    <label for="">Width of TD</label>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <label for="">Height of TD</label>
+                    <input type="text">
+                    <br><br>
+                    <label for="">Width of border</label>
+                    <input type="text">
+                    <label for="">Type of border</label>
+                    <select class="myselect" style="color:gray" onchange="this.style.color='black'">            
+                    <option id='solid ' value="solid " style="color:black">solid </option>
+                    <option id='double ' value="double " style="color:black">double </option>
+                    <option id='groove' value="groove " style="color:black">groove </option>
+                    <option id='dotted' value="dotted" style="color:black">dotted</option>
+                    </select>
+                    <label>Color of border</label>
+                    <select class="myselect" style="color:gray" onchange="this.style.color='black'">
+                    <option id='black' value="black" style="color:black">black</option>
+                    <option id='red' value="red" style="color:black">red</option>
+                    <option id='blue' value="blue" style="color:black">blue</option>
+                    <option id='green' value="green" style="color:black">green</option>
+                    </select>
+                    <br><br>
+                    <button class="CrTa">Create table</button>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="buton">
+            <button class="edit">edit</button>
+            <button class="style">style</button>
+        </div>
+        <div class="low">
+            <div class="low1">
+                <textarea name="" id="area" cols="30" rows="10"></textarea>
+                <button id="add">add</button>
+                <button id="save">save</button>
+            </div>
+            <div class="low2">
+                <form id="form">
+                    <fieldset>
+                        <legend>Font Size:</legend>
+
+                        <input type="radio" name="rad" id="px12">
+                        <label>12px</label>
+
+                        <input type="radio" name="rad" id="px14">
+                        <label>14px</label>
+
+                        <input type="radio" name="rad" id="px16">
+                        <label>16px</label>
+
+                        <input type="radio" name="rad" id="px18">
+                        <label>18px</label>
+
+                        <input type="radio" name="rad" id="px20">
+                        <label>20px</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Font Family:</legend>
+                        <!-- <select>
+                            <option selected disabled hidden>Choose option</option>
+                            <option> cursive </option>
+                            <option> fantasy </option>
+                            <option> monospace </option>
+                            <option> sens-serif </option>
+                        
+                        </select> -->
+                        <select class="myselect" style="color:gray" onchange="this.style.color='black'">
+                            <option value="0" style="display:none">Choose option</option>
+                            <option id='cursive' value="cursive" style="color:black">cursive</option>
+                            <option id='fantasy' value="fantasy" style="color:black">fantasy</option>
+                            <option id='monospace' value="monospace" style="color:black">monospace</option>
+                            <option id='sans-serif' value="sans-serif" style="color:black">sans-serif</option>
+                        </select>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Colors:
+                        </legend>
+                        <button type="button" id="CoT">Color of Text</button>
+                        <button type="button" id="BC">Background Colort</button>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Style:</legend>
+                        <input type="checkbox" id="BT">Bold Text</input>
+                        <input type="checkbox" id="CT">Cursive Text</input>
+                    </fieldset>
+                </form>
+                <div class="color">
+                    <div class="c1"></div>
+                    <div class="c2"></div>
+                    <div class="c3"></div>
+                    <div class="c4"></div>
+                    <div class="c5"></div>
+                    <div class="c6"></div>
+                    <div class="c7"></div>
+                    <div class="c8"></div>
+                    <div class="c9"></div>
+
+                </div>
+                <div class="backGroundColor">
+                    <div class="bgc1"></div>
+                    <div class="bgc2"></div>
+                    <div class="bgc3"></div>
+                    <div class="bgc4"></div>
+                    <div class="bgc5"></div>
+                    <div class="bgc6"></div>
+                    <div class="bgc7"></div>
+                    <div class="bgc8"></div>
+                    <div class="bgc9"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
