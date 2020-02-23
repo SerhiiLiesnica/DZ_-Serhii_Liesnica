@@ -1,0 +1,2 @@
+let a = prompt('Введіть номер місяця')
+if (a == 0) { alert('Спробуйте знову') } else if (a == 12 || a <= 2) { alert('Це  ЗИМА') } else if (a <= 5) { alert('Це ж ВЕСНА') } else if (a <= 8) { alert('Це ж ЛІТО') } else if (a <= 11) { alert('Це ж ОСІНЬ') } else { alert('Спробуйте знову') }
